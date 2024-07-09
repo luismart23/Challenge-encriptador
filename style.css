@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+#input-text {
+    resize: none;
+}
+
+#output-text {
+    min-height: 100px;
+    /* Altura mínima para que el texto procesado se muestre adecuadamente */
+}
+
+.min-height-100 {
+    min-height: 100px;
+    /* Asegura que el div del texto procesado tenga una altura mínima */
+}
+
+/* Asegura que los botones estén bien alineados y tengan un tamaño adecuado */
+.btn {
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        font-size: 0.875rem;
+    }
+}
